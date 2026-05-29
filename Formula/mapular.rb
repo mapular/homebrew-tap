@@ -9,7 +9,7 @@ class Mapular < Formula
 
   # No source download needed — shim delegates to uvx at runtime
   url "https://github.com/mapular/mapular-platform/releases/download/mapular-v#{version}/mapular-#{version}.tar.gz"
-  sha256 "PLACEHOLDER_UPDATE_AT_RELEASE"
+  sha256 "a7f77647df2584627c67bd8a4cfee8852bfb0061dce0273a06f796bd23e64cb9"
 
   depends_on "uv"
 
