@@ -19,10 +19,15 @@ class Mapular < Formula
     SH
     (bin/"mapular-admin-mcp").write <<~SH
       #!/bin/sh
-      exec uvx --from "mapular==#{version}" mapular-admin-mcp "$@"
+      exec uvx --from "mapular-admin-mcp==1.0.0" mapular-admin-mcp "$@"
+    SH
+    (bin/"mapular-mpoi-mcp").write <<~SH
+      #!/bin/sh
+      exec uvx --from "mapular-mpoi-mcp==0.2.0" mapular-mpoi-mcp "$@"
     SH
     chmod 0755, bin/"mapular"
     chmod 0755, bin/"mapular-admin-mcp"
+    chmod 0755, bin/"mapular-mpoi-mcp"
   end
 
   test do
