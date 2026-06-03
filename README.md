@@ -49,4 +49,4 @@ brew update && brew upgrade mapular
 ## More
 
 - Docs: [mapular.com](https://mapular.com)
-- Issues: [mapular/mapular-platform](https://github.com/mapular/mapular-platform/issues)
+- Issues: [mapular/homebrew-tap](https://github.com/mapular/homebrew-tap/issues)
